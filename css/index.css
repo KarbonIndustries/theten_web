@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*
+{
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+body
+{
+  align-items: center;
+  background: #000000 url('/img/background.jpg') no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.logo-lockup
+{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo
+{
+  height: auto;
+  max-width: 80%;
+  width: 100%;
+}
+
+.heading
+{
+  font: 300 clamp(0.8em, 6.7vw, 1.5em)/1.4 'Cormorant Garamond', serif;
+  white-space: nowrap;
+}
+
+.subhead
+{
+  font: 300 clamp(0.8em, 6.7vw, 1.5em)/1.4 'Cormorant Garamond', serif;
+  white-space: nowrap;
+}
+
+.email-lockup
+{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.email-heading
+{
+  font: 300 clamp(0.8em, 6.7vw, 1.5em)/1.4 'Cormorant Garamond', serif;
+  white-space: nowrap;
+}
+
+[class^='klaviyo-form-'] input[type='email'] {
+  border-radius: 0 !important;
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif !important;
+}
+
+[class^='klaviyo-form-'] button {
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif !important;
+}
+
+.spacer-v-5 {height: 5px;}
+.spacer-v-10 {height: 10px;}
+.spacer-v-15 {height: 15px;}
+.spacer-v-20 {height: 20px;}
+.spacer-v-25 {height: 25px;}
+.spacer-v-30 {height: 30px;}
+.spacer-v-35 {height: 35px;}
+.spacer-v-40 {height: 40px;}
+.spacer-v-45 {height: 45px;}
+.spacer-v-50 {height: 50px;}
+.spacer-v-100 {height: 100px;}
+
